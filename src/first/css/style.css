@@ -1,0 +1,85 @@
+body {
+  background-color: transparent;
+}
+nav {
+  background-color: transparent;
+  height: 10%;
+}
+.info {
+  background-color: #002b6a;
+  width: 100%;
+  height: 35px;
+  color: white;
+  font-size: 13px;
+}
+.location {
+  float: left;
+}
+.iso {
+  float: right;
+}
+.info i {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-size: 20px;
+  top: 7px;
+}
+.infotxt {
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+.logo {
+  height: 100px;
+}
+.navcontent {
+  float: right;
+}
+a {
+  color: #383b3e;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  font-weight: 500;
+  border-bottom: solid 4px transparent;
+}
+.navbar-nav a:hover {
+  color: red;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  border-bottom: 4px solid red;
+}
+
+#bg-text {
+  color: lightgrey;
+  font-size: 120px;
+  text-align: center;
+}
+button {
+}
+@media (max-width: 768px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .info {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .info {
+    height: 60px;
+  }
+  .iso {
+    float: left;
+    margin-top: 5px;
+  }
+  .navbar .container {
+    margin-left: 20%;
+  }
+}

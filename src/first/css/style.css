@@ -56,8 +56,6 @@ a {
   font-size: 120px;
   text-align: center;
 }
-button {
-}
 @media (max-width: 768px) {
   html,
   body {
@@ -83,3 +81,4 @@ button {
     margin-left: 20%;
   }
 }
+/*  */
